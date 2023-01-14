@@ -1,4 +1,4 @@
-# ID2223 Final project_Air quality prediction
+# ID2223 Final project_Air quality prediction for Guangzhou, China
 There are 4 python files in google colab notebooks and a file containing the necessary files for the streamlit Huggingface. The function of these files are described as follows.
 # 1_backfill_feature_groups
 This file is to preprocess the data of weather and air quality in Guangzhou, China for one year, which is downloaded from the Internet. In the data of air quality, the index of pm25 is used to represent the index of air quality. In the weather data, data cleaning is performed by calculating the correlation between each label data and air quality, and the cleaned data is uploaded to hopsworks as two featurestores.
