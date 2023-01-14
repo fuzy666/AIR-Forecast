@@ -16,5 +16,5 @@ This file is to implement the XGBoost model training for the hopsworks' feature 
 # Huggingface file
 The Huggingface file mainly includes three sub-files： the requirement.txt which is installation package configuration file, functions.py which contains the function  used in app.py, and the app.py file is the streamlit interface driver file. This app gives an interface for forecast of air quality for the next week in Guangzhou, China.
 
-# Huggingface space public URL for real-time weather prediction 
+# Huggingface space of public URL for real-time weather prediction 
 https://huggingface.co/spaces/YuhangDeng123/AIR
