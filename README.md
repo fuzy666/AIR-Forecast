@@ -12,7 +12,7 @@ The previous weather and air quality exist as two independent feature data. For 
 # 4_model_training(XGB) && 4_model_training
 This file is to implement the XGBoost model training for the hopsworks' feature view. XGBoost is an intensive training for GBoost. Through special methods, we can get the model parameters which is more suitable for this model, and construct XGBoost training according to these model parameters. In addition, this file also compares the accuracy of XGBoost and GBoost model. The results show that the accuracy of the XGBoost model is higher than that of the GBoost model.
 
-#Datasets prepared
+# Datasets prepared
 Guangzhou-air-quality.csv and Guangzhou-weather.csv.
 
 
